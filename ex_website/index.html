@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Being - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ 
+ <style>
+    body {
+      width:100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding-top: 10px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .hero-section {
+      position: relative;
+      width: 1440px;
+      height: 620px;
+      background-image: url('img/img1.jpg');
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto;
+    }
+
+    .navbar-custom {
+      background-color: transparent;
+      padding-top: 30px;
+    }
+
+    .navbar-brand {
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+      color: #7b3f87 !important;
+    }
+
+    .nav-link {
+      color: #333 !important;
+      font-weight: 500;
+      margin: 0 15px;
+    }
+
+    .nav-link.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .center-nav {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .quote-section {
+      width: 1440px;
+      height: 120px;
+      background-color: palegreen;
+      margin: 0 auto;
+      border-top: 0px solid #f2f2f2;
+      border-bottom: 2px solid #f2f2f2;
+    }
+
+    .logo img {
+      height: 120px;
+    }
+
+    .call-icon {
+      background-color: #873b84;
+      padding: 30px;
+      border-radius: 10;
+    }
+
+    .founder-section {
+     width: 1440px;
+     background-color: #fdf5ef;
+     padding: 50px;
+     margin: 0 auto;
+    }
+
+    .content-box {
+     background-color: #fff;
+     border-radius: 20px;
+    }
+
+    .text-purple {
+     color: #7b3f87;
+    }
+
+    .founder-img {
+     width: 100%;
+     max-height: 550px;
+    }
+
+    .services-section {
+     background-color:snow;
+     width: 1440px;
+    }
+
+    .service-box {
+     padding: 15px;
+     min-height: 100px;
+     border-left: 2px solid #ccc;
+    }
+
+    .service-box h5 {
+     font-size: 2.5rem;
+     font-weight: 800;
+    }
+
+    .retreat-info-section {
+     background-color: #fef7f1;
+     width: 1440px;
+     height: 430px;
+    }
+    
+    .happiness-section {
+      height: 620px;
+      width: 1440px;
+      background-repeat: no-repeat;
+      background-attachment:scroll;
+    }
+
+    .footer-section {
+      width: 1440px;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .pagination-slider a {
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .pagination-slider a:hover {
+     color: #000;
+    }
+
+ </style>
+</head>
+<body>
+
+  <div class="hero-section">
+    <nav class="navbar navbar-expand-lg navbar-custom position-relative container">
+      <div class="container-fluid position-relative">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">Being</a>
+
+        <!-- Centered Nav Links -->
+        <div class="center-nav">
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</div>
+<!-- Section 2: Quote Bar -->
+<section class="quote-section d-flex align-items-center">
+  <div class="container-fluid d-flex justify-content-between align-items-center px-5">
+
+    <!-- Left: Logo -->
+    <div class="logo d-flex align-items-center">
+      <img src="img/img15.jpg" alt="Being Logo" height="60">
+    </div>
+
+    <!-- Middle: Quote -->
+    <div class="quote text-center px-4">
+      <p class="mb-0 fs-5">
+        Happiness does not depend on what is around us, It's not about what you possess,<br>
+        It's all about who possess what
+      </p>
+    </div>
+
+    <!-- Right: Call Icon -->
+    <div class="call-icon d-flex align-items-center justify-content-center">
+      <i class="bi bi-telephone-fill fs-1 text-white"></i>
+    </div>
+
+  </div>
+</section>
+
+<!-- Section 2: Founder Info -->
+<section class="founder-section py-5">
+  <div class="container d-flex justify-content-center" style="max-width: 1440px;">
+    <div class="row w-100 align-items-center">
+
+      <!-- Left: Founder Image -->
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <img src="img/img13.jpg" 
+             alt="Founder Image" 
+             class="img-fluid founder-img" 
+             style="height: 550px; border-top-left-radius: 100px; border-bottom-left-radius: 100px; object-fit: cover;">
+      </div>
+
+      <!-- Right: Content Box -->
+      <div class="col-md-8">
+        <div class="content-box p-4 shadow rounded bg-white">
+          <h2 class="fw-bold mb-1">Sumesh Gopal</h2>
+          <h5 class="mb-3">Founder 
+            <span class="text-purple" style="font-family: 'Great Vibes', cursive;">Being</span>
+          </h5>
+
+          <p class="text-secondary">
+            Sumesh Gopal, a purpose driven community builder, Chairperson of leisure and wellness conference at the Hotel Show Dubai 2023 and a member of the Dubai Active Industry advisory board, all aligned with UN. SDG 3 – Good health and wellbeing for all - and inspired by the UAE national wellbeing strategy is a passionate alchemist and corporate monk who has completely invested himself as a happiness philosopher, strategic advisor and a consciousness strategist to uplift happiness and wellbeing – physical, mental and emotional through mind-body integrated approach to self transformation.
+          </p>
+
+          <p class="fst-italic text-muted">
+            His core area of interest is to unravel the ancient wisdom of wellbeing through the prism of neuroscience, positive mind psychology and quantum physics.
+          </p>
+
+          <button class="btn btn-outline-dark mt-3 rounded-pill px-4 py-2">
+            Say yes to Well<span class="fw-bold">BEING</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Section 3: Services -->
+<section class="services-section py-5">
+  <div class="container" style="max-width: 1440px;">
+
+    <!-- Top Section: Text Left + Button Right -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-md-8">
+        <p class="text-uppercase small fw-semibold">OFFERINGS</p>
+        <h2 class="fw-semibold" style="font-size: 2rem;">
+          We offer a range of services to help <br> you improve your emotional wellness.
+        </h2>
+      </div>
+      <div class="col-md-4 text-md-end">
+        <p class="text-muted">
+          We believe that everyone deserves access to high quality mental health resources,
+          and we are committed to making our services affordable and accessible to all.
+        </p>
+        <button class="btn btn-outline-dark mt-2 rounded-pill px-4 py-2">
+          Start your Well<span class="fw-bold">BEING</span> today
+        </button>
+      </div>
+    </div>
+
+    <!-- Grid: Services -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+
+      <!-- Card 1 -->
+      <div class="col">
+        <div class="service-box d-flex align-items-center gap-3 border-end pe-3">
+          <img src="img/img2.jpg" alt="Corporate" height="60">
+          <div>
+            <h4 class="mb-0">Corporate<br>Wellness</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col">
+        <div class="service-box d-flex align-items-center gap-3 border-end pe-3">
+          <img src="img/img3.jpg" alt="Half-Day" height="60">
+          <div>
+            <h4 class="mb-0">Half-Day<br>Retreats</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col">
+        <div class="service-box d-flex align-items-center gap-3 border-end pe-3">
+          <img src="img/img4.jpg" alt="Full-Day" height="60">
+          <div>
+            <h4 class="mb-0">Full-Day<br>Retreats</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col">
+        <div class="service-box d-flex align-items-center gap-3 border-end pe-3">
+          <img src="img/img10.jpg" alt="Ayurveda" height="60">
+          <div>
+            <h4 class="mb-0">Ayurveda<br>Retreats</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col">
+        <div class="service-box d-flex align-items-center gap-3 border-end pe-3">
+          <img src="img/img11.jpg" alt="Emotional" height="60">
+          <div>
+            <h4 class="mb-0">Emotional Wellness<br>Retreats</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col">
+        <div class="service-box d-flex align-items-center gap-3 border-end pe-3">
+          <img src="img/img14.jpg" alt="Weight" height="60">
+          <div>
+            <h4 class="mb-0">Weight Management<br>Retreats</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 (No border right) -->
+      <div class="col">
+        <div class="service-box d-flex align-items-center gap-3">
+          <img src="img/img3.jpg" alt="Detox" height="60">
+          <div>
+            <h4 class="mb-0">Detox & Cleanse<br>Lifestyle Retreats</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Section 4 -->
+<section class="retreat-info-section py-5 text-center">
+  <div class="container" style="max-width: 1440px;">
+
+    <!-- Centered Paragraph -->
+    <div class="mb-5">
+      <p class="fw-semibold fs-2" style="max-width: 1020px; margin: 0 auto; line-height: 1.6;">
+        Emotional Wellness retreats in safe, non judgemental healing environments combining
+        medical and holistic protocols delivered through conscious luxury wellness hospitality
+        experiences in high energy geopathic vortexes globally
+      </p>
+    </div>
+
+    <!-- Icons Row -->
+    <div class="row justify-content-center g-4">
+
+      <!-- Icon 1 -->
+      <div class="col-auto">
+        <img src="img/img2.jpg" alt="Ayurveda" height="60">
+      </div>
+
+      <!-- Icon 2 -->
+      <div class="col-auto">
+        <img src="img/img3.jpg" alt="Corporate" height="60">
+      </div>
+
+      <!-- Icon 3 -->
+      <div class="col-auto">
+        <img src="img/img4.jpg" alt="Emotional" height="60">
+      </div>
+
+      <!-- Icon 4 -->
+      <div class="col-auto">
+        <img src="img/img10.jpg" alt="Half-Day" height="60">
+      </div>
+
+      <!-- Icon 5 -->
+      <div class="col-auto">
+        <img src="img/img11.jpg" alt="Full-Day" height="60">
+      </div>
+
+      <!-- Icon 6 -->
+      <div class="col-auto">
+        <img src="img/img14.jpg" alt="Weight" height="60">
+      </div>
+
+      <!-- Icon 7 -->
+      <div class="col-auto">
+        <img src="img/img3.jpg" alt="Detox" height="60">
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Section 5 -->
+<section class="happiness-section d-flex align-items-center" style="background-image: url('img/img8.jpg'); background-size: cover; background-position: center; height:800px;">
+  <div class="container">
+    <div class="row align-items-center" style="height: 100%;">
+      <div class="col-md-6 text-white px-5">
+        <h1 class="display-5 fw-bold" style="color: #000;">
+          We believe that <br>
+          true happiness <br>
+          comes from <br>
+          within.
+        </h1>
+        <p class="mt-3" style="color: #4a4a4a;">
+          his aim is to help others tap into their inner strength and find balance and equanimity in all aspects of their lives and achieve peak performance.
+        </p>
+        <a href="#" class="btn btn-dark rounded-pill px-4 py-2 mt-4">
+          Book a session with <strong>BEING</strong>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Footer Section -->
+<footer class="footer-section bg-black text-white py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Logo Column -->
+      <div class="col-md-6 mb-3 mb-md-0 text-center text-md-start">
+        <img src="img/img17.png" alt="Being Logo" class="img-fluid" style="max-width: 300px;">
+      </div>
+
+      <!-- Text Column -->
+      <div class="col-md-6 text-center text-md-end">
+        <p class="fw-bold mb-1">Being Emotional Wellness, ASA Clinics</p>
+        <p class="mb-1">The Retreat Palm Dubai M Gallery by Sofitel, <br>
+          East Crescent, Palm Jumeirah,<br>
+          DUBAI, UNITED ARAB EMIRATES</p>
+        <p class="mb-1">darshan@beingpalmdubai.com</p>
+        <p class="mb-0">+91 9876567893, +91 7654765498</p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<!-- Pagination Slider Section -->
+<div class="text-center my-5">
+  <div class="d-inline-flex align-items-center gap-3">
+
+    <!-- Home Icon -->
+    <a href="index.html" class="text-muted">
+      <i class="bi bi-house-fill fs-5"></i>
+    </a>
+
+    <!-- Previous Page -->
+    <a href="gallery.html" class="text-muted">
+      <i class="bi bi-chevron-left fs-5"></i>
+    </a>
+
+    <!-- Page Indicator -->
+    <span class="text-muted">1 of 3</span>
+
+    <!-- Next Page -->
+    <a href="services.html" class="text-muted">
+      <i class="bi bi-chevron-right fs-5"></i>
+    </a>
+
+  </div>
+</div>
+<!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
